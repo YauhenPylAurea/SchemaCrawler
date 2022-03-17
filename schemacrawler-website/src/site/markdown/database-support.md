@@ -63,7 +63,7 @@ are interested in, for Microsoft SQL Server.
 
 Typical command-line arguments will look like:
 ```
---server=sqlserver --host=db.example.com --port=1433 --database=schemacrawler --schemas=schemacrawler.dbo --user=xxxxx --password=xxxxx --info-level=standard -command=schema
+--server=sqlserver --host=db.example.com --port=1433 --database=schemacrawler --schemas=schemacrawler.dbo --user=xxxxx --password=xxxxx --info-level=standard --command=schema
 ```
 You can also pass connection properties using the `--urlx` command-line switch.
 
